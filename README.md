@@ -55,8 +55,6 @@ Instant-play classics: Tetris, Snake, Pong, and more
 
 ## 🧪 Tech Arsenal
 
-## 🧪 Tech Arsenal
-
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Three.js](https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white)
