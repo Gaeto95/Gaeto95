@@ -6,7 +6,7 @@ I work on systems that run themselves, games that evolve, and tools that feel li
 
 ## 🚀 Live Demos
 
-[![Tavern of Tales](https://img.shields.io/badge/🏰_Tavern_of_Tales-Live_Demo-ff6b6b?style=for-the-badge)](https://tavernofdemosite.com)
+[![Tavern of Tales](https://img.shields.io/badge/🏰_Tavern_of_Tales-Live_Demo-ff6b6b?style=for-the-badge)](https://tavernoftales.online)
 [![xInfinity Games](https://img.shields.io/badge/🎮_xInfinity_Games-Play_Now-4ecdc4?style=for-the-badge)](https://xinfinitygames.netlify.app)
 [![DNA Explorer 3D](https://img.shields.io/badge/🧬_DNA_Explorer_3D-Explore-45b7d1?style=for-the-badge)](https://curious-shortbread-809d14.netlify.app)
 [![WishAPI](https://img.shields.io/badge/✨_WishAPI-Try_It-f7dc6f?style=for-the-badge)](https://wishapi.netlify.app)
