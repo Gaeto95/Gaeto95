@@ -1,68 +1,223 @@
 # Gaeto95
 
-**Builder of game tools, automation, and live-service systems.**
+**Independent builder working across games, software, infrastructure, automation, and AI.**
 
-I work mostly in private repos: community game infrastructure, Discord automation,
-admin dashboards, patch/deploy tooling, Unity prototypes, and AI-assisted web
-experiments. The public profile is intentionally light; most of the serious
-systems work is better described by capability than by repo list.
+I build and operate systems end to end.
 
-I like building tools that feel a little like magic because the messy parts have
-been made reliable.
+Most of my serious work lives in private repositories and spans online game technology, browser-based game systems, native launchers, backend services, automation, AI tooling, production infrastructure, data engineering, developer tools, and experimental products.
+
+I tend to work where frontend, backend, infrastructure, data, game systems, automation, AI, and product decisions all collide.
+
+I like taking systems that are old, fragmented, complicated, or painfully manual and making the complexity disappear for the person using them.
 
 ---
 
 ## What I Build
 
-- Full-stack web apps and dashboards for communities, tools, and live services.
-- Automation around Discord bots, browser workflows, deployment checks, and content pipelines.
-- Game prototypes and tooling across Unity, TypeScript/WebGL, and data-driven workflows.
-- Admin/reporting tools where accurate totals, filters, and audit trails matter.
-- AI-assisted product experiments, generators, and interactive utilities.
+### Games & Game Technology
+
+- Online game platforms and live-service systems
+- Legacy game modernization and browser implementations
+- Native launchers, patchers, repair and distribution systems
+- Game-data parsers, editors, exporters, diffing and migration tools
+- Unity and browser/desktop game development
+- Multiplayer, combat, progression and gameplay systems
+- 3D model, animation, VFX and asset pipelines
+- Internal tools for operating and evolving live games
+
+### Full-Stack Systems
+
+- Large web applications and internal platforms
+- React, Next.js, Svelte and SvelteKit frontends
+- Django, FastAPI, Fastify and Node.js backends
+- PostgreSQL, Supabase, SQLite and Redis systems
+- Authentication, payments, accounts and reward systems
+- Admin dashboards, analytics and reporting
+- APIs, workers, queues and realtime systems
+
+### Infrastructure & Automation
+
+- Dockerized production environments
+- Linux and Windows infrastructure
+- Production migrations and cutovers
+- Databases, object storage, DNS and distribution
+- CI/CD and deployment verification
+- Browser automation with Playwright / Chromium
+- Discord bots and persistent autonomous services
+- Monitoring, recovery and operational tooling
+- Backup, rollback and integrity-verification systems
+
+### Data, Reverse Engineering & Tooling
+
+- Legacy binary and structured data formats
+- Parsers and format reconstruction
+- Structural comparison and validation
+- Large searchable data explorers
+- Migration and compatibility tooling
+- Source-of-truth reconstruction across old systems
+- Exact binary/data repairs with invariant checking
 
 ---
 
-## Private Work, Publicly Described
+## AI-Native Development
 
-I keep client/community-specific details private, but the work generally falls into these areas:
+AI is not a separate tool I occasionally ask for code.
 
-- **Community game infrastructure**: launchers, patch-feed validation, telemetry review, static sites, backend services, and admin workflows.
-- **Content and data tooling**: parsers, editors, migration helpers, and verification flows for legacy game-data formats.
-- **Unity development**: arena-combat prototypes, horror/worldbuilding tools, and VFX rendering pipelines for browser game assets.
-- **Bots and automation**: Discord bots, Dockerized services, Playwright/Chromium browser automation, and uptime-oriented runtime fixes.
-- **Web experiments**: AI roleplay systems, generated mini-games, 3D visualizers, and small utility apps.
+It is part of my development environment.
 
----
+I use multiple frontier models, coding agents and local models depending on the job. That includes systems from OpenAI, Anthropic, Google and open/local model ecosystems rather than relying on a single provider or model.
 
-## Stack I Reach For
+Different models end up acting as different kinds of workers:
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+- implementation
+- architecture
+- research
+- debugging
+- code review
+- reverse engineering
+- infrastructure
+- testing and QA
+- security review
+- documentation
+- visual/product iteration
+- long-running autonomous work
 
----
+I regularly have multiple agent sessions working simultaneously across different parts of larger systems, sometimes with those agents spawning their own subagents or recurring automations.
 
-<div align="center">
+Information and work move between them.
 
-**"Any sufficiently advanced technology is indistinguishable from magic."**
+One model may investigate a problem, another challenge the conclusion, another implement it, and another verify what actually happened.
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Gaeto95&theme=radical&hide_border=true)
+So my workflow increasingly looks like:
 
-[![Visitors](https://komarev.com/ghpvc/?username=Gaeto95&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Gaeto95)
+**define → decompose → delegate → connect → challenge → verify → ship**
 
-</div>
+The important part is not generating more code.
+
+It is being able to direct much more technical work without giving up judgment, source-of-truth control, or verification.
 
 ---
 
-Public repos here are intentionally limited. Most production, community, and game-service work stays private.
+## Multi-Model Workflow
+
+I deliberately avoid treating any model as universally "best."
+
+I use combinations of:
+
+- **OpenAI / Codex**
+- **ChatGPT**
+- **Claude / Claude Code**
+- **Gemini**
+- **Local and open-weight models**
+- Specialized agents, tools and automation around them
+
+Models are selected and combined based on reasoning depth, coding ability, context requirements, latency, autonomy, cost, privacy and the type of work being performed.
+
+For some problems I want a very strong frontier reasoning model.
+
+For others I want an agent that can work inside a repository for hours.
+
+For repetitive or private workloads, local models can make more sense.
+
+For difficult decisions, I often prefer disagreement between independent models over trusting the first convincing answer.
+
+---
+
+## How I Work
+
+I care a lot about the difference between something that looks finished and something that is actually finished.
+
+A typical progression is:
+
+`investigated`
+→ `implemented`
+→ `tested`
+→ `CI verified`
+→ `deployed`
+→ `runtime verified`
+
+Those are not the same state.
+
+My general rules are:
+
+- Find the real source of truth before changing things.
+- Prefer evidence over remembered state.
+- Keep production changes narrow and reversible.
+- Let agents solve recoverable problems instead of constantly asking permission.
+- Use independent verification for important work.
+- Preserve tests, hashes, reports, logs and useful artifacts.
+- Record negative results instead of forcing a successful conclusion.
+- Parallelize aggressively when tasks can safely be separated.
+- Keep final authority over destructive, financial and production decisions.
+
+---
+
+## Selected Work
+
+Most production repositories are private, but my work includes:
+
+- A large interconnected online game ecosystem spanning client, launcher, web, backend, databases, bots, infrastructure and live operations
+- An ongoing browser implementation and modernization of legacy game technology
+- Custom editors and tooling for large legacy game-data formats
+- AI-powered developer and operational systems
+- A full-stack local AI video creation/editing platform
+- Unity horror and action-game development
+- Automated research and simulation systems
+- Large production infrastructure migrations
+- Payment and security hardening
+- Discord and browser automation systems
+- 3D model and game-data explorers
+- Internal tooling that turns complicated operational workflows into repeatable systems
+
+---
+
+## Technology
+
+### Languages
+
+`TypeScript` `JavaScript` `Python` `C#` `SQL` `PowerShell`
+
+### Web
+
+`React` `Next.js` `Svelte` `SvelteKit` `Tailwind`  
+`WebGL` `Canvas` `Babylon.js`
+
+### Backend & Data
+
+`Django` `FastAPI` `Fastify` `Node.js`  
+`PostgreSQL` `Supabase` `SQLite` `Redis`
+
+### Games & Graphics
+
+`Unity` `Blender` `WebGL` `Babylon.js`
+
+### Infrastructure
+
+`Docker` `Linux` `Windows` `WSL`  
+`GitHub Actions` `Playwright` `Chromium`
+
+### AI
+
+`Codex` `ChatGPT` `Claude Code` `Gemini`  
+`Local / Open-Weight Models`  
+`Agents` `Subagents` `Automations` `Tool-Using Systems`
+
+---
+
+## Philosophy
+
+I am less interested in specializing in one layer of software than understanding enough of the entire system to make the pieces work together.
+
+AI has pushed that much further.
+
+The limiting factor is increasingly not how quickly I can type an implementation.
+
+It is how well I can decide **what should exist, how the problem should be divided, which results should be trusted, and how all of the pieces fit together.**
+
+> **Build the complicated thing. Make using it feel simple.**
+
+---
+
+Most production, infrastructure and game-service repositories are intentionally private.
+
+The public GitHub profile represents only a small part of the work.
